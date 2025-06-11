@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | PACE
 DTSTART:20221215T000000Z
 DTEND:20221215T235959Z
-DTSTAMP:20250606T120855Z
+DTSTAMP:20250611T131918Z
 UID:bti3a5sgedmumv8s7efh5mstm4@google.com
 CREATED:20200704T042740Z
 DESCRIPTION:More info: www.nextspaceflight.com/launches/details/3440\n--- 
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon Heavy | Dragonfly
 DTSTART;VALUE=DATE:20280705
 DTEND;VALUE=DATE:20280706
-DTSTAMP:20250606T120855Z
+DTSTAMP:20250611T131918Z
 UID:967m5p6p87jfim58n66sunit5s@google.com
 CREATED:20241125T212509Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7706\n--- Addi
@@ -62,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | SpaceX Crew-11
 DTSTART:20250731T160000Z
 DTEND:20250731T163000Z
-DTSTAMP:20250606T120855Z
+DTSTAMP:20250611T131918Z
 UID:aht5vovfig7d50cu5tpdp2hllc@google.com
 CREATED:20250527T204150Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6970\n--- Addi
@@ -86,20 +86,74 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Falcon 9 Block 5 | Starlink Group 12-26
+DTSTART:20250613T114500Z
+DTEND:20250613T154500Z
+DTSTAMP:20250611T131918Z
+UID:kec7a6vvgp0rj5ibvrfc5d1sfk@google.com
+CREATED:20250605T113949Z
+DESCRIPTION:More info: nextspaceflight.com/launches/details/7874\n--- Addi
+ tional Details ---\nFri Jun 13\, 2025 11: 45 UTC\nBy: SpaceX\nStatus: Acti
+ ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
+ 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
+  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer/Ope
+ rator: SpaceX\nPayloads: 23\n--------------------------
+LAST-MODIFIED:20250605T113949Z
+LOCATION:SLC-40\, Cape Canaveral SFS
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | Starlink Group 12-26
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Starlink Group 12-26
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Glenn | Elytra Mission 1 & Others
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+DTSTAMP:20250611T131918Z
+UID:u7vdlp52j10l28k102t5shaj1g@google.com
+CREATED:20250609T174340Z
+DESCRIPTION:More info: nextspaceflight.com/launches/details/7194\n--- Addi
+ tional Details ---\nBy: Blue Origin\nStatus: Active\nLiftoff Thrust: 17\,1
+ 50 kN\nPayload to LEO: 45\,000 kg\nPayload to GTO: 13\,000 kg\nStages: 2\n
+ Strap-ons: 0\nRocket Height: 98.0 m\nFairing Diameter: 7.0 m\nFairing Heig
+ ht: 21.9 m\nManufacturer/Operator: Firefly Aerospace\n--------------------
+ ------
+LAST-MODIFIED:20250609T174518Z
+LOCATION:LC-36\, Cape Canaveral SFS
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (30 min): New Glenn | Elytra Mission 1 & Others
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (5 min): New Glenn | Elytra Mission 1 & Others
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Atlas V 551 | Project Kuiper (KA-02)
-DTSTART:20250613T182900Z
-DTEND:20250613T185900Z
-DTSTAMP:20250606T120855Z
+DTSTART:20250616T172500Z
+DTEND:20250616T175500Z
+DTSTAMP:20250611T131918Z
 UID:lgl7skvj1bpp176fi3cqlel60k@google.com
 CREATED:20250529T130410Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6771\n--- Addi
- tional Details ---\nFri Jun 13\, 2025 18: 29 UTC\nBy: ULA\nStatus: Active\
+ tional Details ---\nMon Jun 16\, 2025 17: 25 UTC\nBy: ULA\nStatus: Active\
  nPrice: $153.0 million\nLiftoff Thrust: 12\,141 kN\nPayload to LEO: 18\,85
  0 kg\nPayload to GTO: 8\,900 kg\nStages: 2\nStrap-ons: 5\nRocket Height: 6
  2.2 m\nFairing Diameter: 5.4 m\nFairing Height: 26.5 m\nManufacturer/Opera
  tor: Amazon Project Kuiper\nPayloads: 27\nTotal Mass: 15\,422.0 kg\n------
  --------------------
-LAST-MODIFIED:20250529T130410Z
+LAST-MODIFIED:20250610T130219Z
 LOCATION:SLC-41\, Cape Canaveral SFS
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -114,74 +168,19 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | SXM-10
-DTSTART:20250607T031900Z
-DTEND:20250607T071900Z
-DTSTAMP:20250606T120855Z
-UID:cdg26oue7u4q8a08ognp9hv88k@google.com
-CREATED:20250504T010258Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/7784\n--- Addi
- tional Details ---\nSat Jun 07\, 2025 03: 19 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer: Ma
- xar Technologies\nOperator: SiriusXM\nPayloads: 1\nTotal Mass: 6\,400.0 kg
- \n--------------------------
-LAST-MODIFIED:20250602T150742Z
-LOCATION:SLC-40\, Cape Canaveral SFS
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | SXM-10
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | SXM-10
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | Starlink Group 12-24
-DTSTART:20250610T130300Z
-DTEND:20250610T170300Z
-DTSTAMP:20250606T120855Z
-UID:t19osesoj8b2n348sejlj3bv9g@google.com
-CREATED:20250603T120742Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/7871\n--- Addi
- tional Details ---\nTue Jun 10\, 2025 13: 03 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer/Ope
- rator: SpaceX\n--------------------------
-LAST-MODIFIED:20250603T120742Z
-LOCATION:SLC-40\, Cape Canaveral SFS
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | Starlink Group 12-24
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Starlink Group 12-24
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | Axiom Mission 4 (Ax-4)
-DTSTART:20250610T122200Z
-DTEND:20250610T125200Z
-DTSTAMP:20250606T120855Z
-UID:6us5rme93l7mgf69egms8qumac@google.com
-CREATED:20250510T145519Z
+DTSTART:20250612T113700Z
+DTEND:20250612T120700Z
+DTSTAMP:20250611T131918Z
+UID:oa2ffjq71058ip84n5lss95adc@google.com
+CREATED:20250611T115601Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6791\n--- Addi
- tional Details ---\nTue Jun 10\, 2025 12: 22 UTC\nBy: SpaceX\nStatus: Acti
+ tional Details ---\nThu Jun 12\, 2025 11: 37 UTC\nBy: SpaceX\nStatus: Acti
  ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
  800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
   70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\n----------------
  ----------
-LAST-MODIFIED:20250603T152717Z
+LAST-MODIFIED:20250611T115601Z
 LOCATION:LC-39A\, Kennedy Space Center
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -194,33 +193,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Axiom Mission 4 (Ax-4
  )
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | Starlink Group 12-26
-DTSTART:20250613T114500Z
-DTEND:20250613T154500Z
-DTSTAMP:20250606T120855Z
-UID:kec7a6vvgp0rj5ibvrfc5d1sfk@google.com
-CREATED:20250605T113949Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/7874\n--- Addi
- tional Details ---\nFri Jun 13\, 2025 11: 45 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer/Ope
- rator: SpaceX\n--------------------------
-LAST-MODIFIED:20250605T113949Z
-LOCATION:SLC-40\, Cape Canaveral SFS
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | Starlink Group 12-26
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Starlink Group 12-26
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
