@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | PACE
 DTSTART:20221215T000000Z
 DTEND:20221215T235959Z
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:bti3a5sgedmumv8s7efh5mstm4@google.com
 CREATED:20200704T042740Z
 DESCRIPTION:More info: www.nextspaceflight.com/launches/details/3440\n--- 
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon Heavy | Dragonfly
 DTSTART;VALUE=DATE:20280705
 DTEND;VALUE=DATE:20280706
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:967m5p6p87jfim58n66sunit5s@google.com
 CREATED:20241125T212509Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7706\n--- Addi
@@ -62,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | CRS SpX-33
 DTSTART:20250824T064500Z
 DTEND:20250824T071500Z
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:5eoa007i360f4imd8qvf0csq0c@google.com
 CREATED:20250725T175450Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6915\n--- Addi
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:New Glenn | ESCAPADE
 DTSTART;VALUE=DATE:20250929
 DTEND;VALUE=DATE:20250930
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:45umpoggvviun0s2on7ni8f8a0@google.com
 CREATED:20250814T224709Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7095\n--- Addi
@@ -127,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | Starlink Group 10-11
 DTSTART:20250827T054900Z
 DTEND:20250827T094900Z
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:7enj4c7hi6d0t7bqap04vu4g0c@google.com
 CREATED:20250801T174231Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7913\n--- Addi
@@ -151,38 +151,10 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | USSF-36 (OTV-8)
-DTSTART:20250822T034000Z
-DTEND:20250822T074000Z
-DTSTAMP:20250819T120532Z
-UID:ls0gi6ap6dg7cojgbp04nl3l9o@google.com
-CREATED:20250728T133624Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/6149\n--- Addi
- tional Details ---\nFri Aug 22\, 2025 03: 40 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer: Bo
- eing\nOperator: United States Space Force\nPayloads: 1\nTotal Mass: 4\,990
- .0 kg\n--------------------------
-LAST-MODIFIED:20250817T235339Z
-LOCATION:LC-39A\, Kennedy Space Center
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | USSF-36 (OTV-8)
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | USSF-36 (OTV-8)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | SPAINSAT New Generation II
 DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
-DTSTAMP:20250819T120532Z
+DTSTAMP:20250820T101244Z
 UID:usfcn0kafbvumc5voe9ldf6m6c@google.com
 CREATED:20250712T015023Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7046\n--- Addi
@@ -204,6 +176,34 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | SPAINSAT New Generati
  on II
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Falcon 9 Block 5 | USSF-36 (OTV-8)
+DTSTART:20250822T035000Z
+DTEND:20250822T072000Z
+DTSTAMP:20250820T101244Z
+UID:ls0gi6ap6dg7cojgbp04nl3l9o@google.com
+CREATED:20250728T133624Z
+DESCRIPTION:More info: nextspaceflight.com/launches/details/6149\n--- Addi
+ tional Details ---\nFri Aug 22\, 2025 03: 50 UTC\nBy: SpaceX\nStatus: Acti
+ ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
+ 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
+  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer: Bo
+ eing\nOperator: United States Space Force\nPayloads: 1\nTotal Mass: 4\,990
+ .0 kg\n--------------------------
+LAST-MODIFIED:20250820T011505Z
+LOCATION:LC-39A\, Kennedy Space Center
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | USSF-36 (OTV-8)
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | USSF-36 (OTV-8)
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
