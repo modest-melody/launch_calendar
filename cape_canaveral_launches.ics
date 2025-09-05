@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | PACE
 DTSTART:20221215T000000Z
 DTEND:20221215T235959Z
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:bti3a5sgedmumv8s7efh5mstm4@google.com
 CREATED:20200704T042740Z
 DESCRIPTION:More info: www.nextspaceflight.com/launches/details/3440\n--- 
@@ -36,7 +36,7 @@ BEGIN:VEVENT
 SUMMARY:Falcon Heavy | Dragonfly
 DTSTART;VALUE=DATE:20280705
 DTEND;VALUE=DATE:20280706
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:967m5p6p87jfim58n66sunit5s@google.com
 CREATED:20241125T212509Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7706\n--- Addi
@@ -62,7 +62,7 @@ BEGIN:VEVENT
 SUMMARY:New Glenn | ESCAPADE
 DTSTART;VALUE=DATE:20250929
 DTEND;VALUE=DATE:20250930
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:45umpoggvviun0s2on7ni8f8a0@google.com
 CREATED:20250814T224709Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7095\n--- Addi
@@ -97,37 +97,10 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | IMAP & Others
-DTSTART;VALUE=DATE:20250923
-DTEND;VALUE=DATE:20250924
-DTSTAMP:20250901T103012Z
-UID:u1p0bp8ubieiqp1kbo6vgmfebc@google.com
-CREATED:20250821T144231Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/5063\n--- Addi
- tional Details ---\nBy: SpaceX\nStatus: Active\nPrice: $69.75 million\nLif
- toff Thrust: 7\,607 kN\nPayload to LEO: 22\,800 kg\nPayload to GTO: 8\,300
-  kg\nStages: 2\nStrap-ons: 0\nRocket Height: 70.0 m\nFairing Diameter: 5.2
-  m\nFairing Height: 13.0 m\nManufacturer: BAE Systems\nOperator: NASA\nPay
- loads: 1\nTotal Mass: 200.0 kg\n--------------------------
-LAST-MODIFIED:20250821T193507Z
-LOCATION:LC-39A\, Kennedy Space Center
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | IMAP & Others
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | IMAP & Others
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | SPAINSAT New Generation II
 DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:usfcn0kafbvumc5voe9ldf6m6c@google.com
 CREATED:20250712T015023Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7046\n--- Addi
@@ -153,64 +126,10 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | Starlink Group 10-22
-DTSTART:20250903T110600Z
-DTEND:20250903T150600Z
-DTSTAMP:20250901T103012Z
-UID:doi8ck25301asal7m8murp164s@google.com
-CREATED:20250826T154349Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/7930\n--- Addi
- tional Details ---\nWed Sep 03\, 2025 11: 06 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer/Ope
- rator: SpaceX\nPayloads: 28\n--------------------------
-LAST-MODIFIED:20250826T154350Z
-LOCATION:SLC-40\, Cape Canaveral SFS
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | Starlink Group 10-22
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Starlink Group 10-22
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Falcon 9 Block 5 | Starlink Group 10-57
-DTSTART:20250904T111800Z
-DTEND:20250904T151800Z
-DTSTAMP:20250901T103012Z
-UID:cseh3besov1o67fu9hvelpfkec@google.com
-CREATED:20250828T162024Z
-DESCRIPTION:More info: nextspaceflight.com/launches/details/7934\n--- Addi
- tional Details ---\nThu Sep 04\, 2025 11: 18 UTC\nBy: SpaceX\nStatus: Acti
- ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
- 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
-  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer/Ope
- rator: SpaceX\nPayloads: 28\n--------------------------
-LAST-MODIFIED:20250828T162025Z
-LOCATION:LC-39A\, Kennedy Space Center
-STATUS:CONFIRMED
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | Starlink Group 10-57
-TRIGGER:-PT30M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Starlink Group 10-57
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | CRS NG-23
 DTSTART:20250915T214900Z
 DTEND:20250915T221900Z
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:uh3lmaekbj5jeqh5at963cl6n8@google.com
 CREATED:20250822T135849Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/7072\n--- Addi
@@ -237,7 +156,7 @@ BEGIN:VEVENT
 SUMMARY:Atlas V 551 | Project Kuiper (KA-03)
 DTSTART;VALUE=DATE:20250925
 DTEND;VALUE=DATE:20250926
-DTSTAMP:20250901T103012Z
+DTSTAMP:20250905T130056Z
 UID:b0n3o2783bt413ort55kv8fo4s@google.com
 CREATED:20250829T130145Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6770\n--- Addi
@@ -262,18 +181,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Falcon 9 Block 5 | Nusantara Lima
-DTSTART;VALUE=DATE:20250908
-DTEND;VALUE=DATE:20250909
-DTSTAMP:20250901T103012Z
+DTSTART:20250909T000200Z
+DTEND:20250909T015800Z
+DTSTAMP:20250905T130056Z
 UID:kolbiglqesn523jt1kqfgqdv90@google.com
 CREATED:20250822T172212Z
 DESCRIPTION:More info: nextspaceflight.com/launches/details/6907\n--- Addi
- tional Details ---\nBy: SpaceX\nStatus: Active\nPrice: $69.75 million\nLif
- toff Thrust: 7\,607 kN\nPayload to LEO: 22\,800 kg\nPayload to GTO: 8\,300
-  kg\nStages: 2\nStrap-ons: 0\nRocket Height: 70.0 m\nFairing Diameter: 5.2
-  m\nFairing Height: 13.0 m\nManufacturer: Boeing\nOperator: Pasifik Sateli
- t Nusantara\nPayloads: 1\n--------------------------
-LAST-MODIFIED:20250901T034025Z
+ tional Details ---\nTue Sep 09\, 2025 00: 02 UTC\nBy: SpaceX\nStatus: Acti
+ ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
+ 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
+  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer: Bo
+ eing\nOperator: Pasifik Satelit Nusantara\nPayloads: 1\n------------------
+ --------
+LAST-MODIFIED:20250903T230818Z
 LOCATION:SLC-40\, Cape Canaveral SFS
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -284,6 +204,34 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | Nusantara Lima
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Falcon 9 Block 5 | IMAP & Others
+DTSTART:20250923T113000Z
+DTEND:20250923T120000Z
+DTSTAMP:20250905T130056Z
+UID:u1p0bp8ubieiqp1kbo6vgmfebc@google.com
+CREATED:20250821T144231Z
+DESCRIPTION:More info: nextspaceflight.com/launches/details/5063\n--- Addi
+ tional Details ---\nTue Sep 23\, 2025 11: 30 UTC\nBy: SpaceX\nStatus: Acti
+ ve\nPrice: $69.75 million\nLiftoff Thrust: 7\,607 kN\nPayload to LEO: 22\,
+ 800 kg\nPayload to GTO: 8\,300 kg\nStages: 2\nStrap-ons: 0\nRocket Height:
+  70.0 m\nFairing Diameter: 5.2 m\nFairing Height: 13.0 m\nManufacturer: BA
+ E Systems\nOperator: NASA\nPayloads: 1\nTotal Mass: 200.0 kg\n------------
+ --------------
+LAST-MODIFIED:20250905T004319Z
+LOCATION:LC-39A\, Kennedy Space Center
+STATUS:CONFIRMED
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (30 min): Falcon 9 Block 5 | IMAP & Others
+TRIGGER:-PT30M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Launch Alert (5 min): Falcon 9 Block 5 | IMAP & Others
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
